@@ -1,30 +1,14 @@
-# Airbnb Data Analysis Project
+## 📓 Notebook
+You can view the complete analysis here:
+- airbnb_analysis.ipynb
 
-## 📌 Overview
-This project analyzes Airbnb dataset using Python.
+## 📊 Key Results
+- Built Linear Regression and Random Forest models
+- Random Forest performed better
+- Data cleaned and preprocessed
 
-## 🛠 Tools Used
-- Python
-- Pandas
-- NumPy
-- Seaborn
-- Matplotlib
+## 📈 Visualizations
+- Price distribution
+- Correlation heatmap
+- Feature relationships
 
-## 🔍 Key Steps
-- Data Cleaning
-- Handling Missing Values
-- Data Type Conversion
-- Exploratory Data Analysis (EDA)
-- Visualization
-
-## 📊 Key Insights
-- Price distribution is skewed
-- Relationships between variables identified
-- Data cleaned and prepared for modeling
-
-## 📁 Dataset
-Airbnb dataset used for analysis
-
-## 🚀 Future Work
-- Apply Machine Learning models
-- Predict price based on features
