@@ -52,6 +52,18 @@ print(r2_score(y_test,y_pred))
 print(mean_absolute_error(y_test,y_pred))
 print(mean_squared_error(y_test,y_pred))
 
+sns.histplot(df['price'],kde=True)
+plt.title("price distribution")
+plt.show()
+
+sns.heatmap(df.corr(),annot=True,cmap='coolwarm')
+plt.title("correlation matrix")
+plt.show()
+
+sns.scatterplot(x='consumer', y='price', data=df)
+plt.title("Consumer vs Price")
+plt.show()
+
 from sklearn.ensemble import RandomForestRegressor
 
 model = RandomForestRegressor()
