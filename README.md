@@ -1,16 +1,30 @@
-# Airbnb Data Analysis
+# Airbnb Data Analysis Project
 
-## Tools Used
+## 📌 Overview
+This project analyzes Airbnb dataset using Python.
+
+## 🛠 Tools Used
 - Python
 - Pandas
 - NumPy
 - Seaborn
+- Matplotlib
 
-## Description
-This project performs data cleaning and preprocessing on Airbnb dataset.
+## 🔍 Key Steps
+- Data Cleaning
+- Handling Missing Values
+- Data Type Conversion
+- Exploratory Data Analysis (EDA)
+- Visualization
 
-## Steps:
-- Handle missing values
-- Convert data types
-- Remove unnecessary columns
-- Perform EDA
+## 📊 Key Insights
+- Price distribution is skewed
+- Relationships between variables identified
+- Data cleaned and prepared for modeling
+
+## 📁 Dataset
+Airbnb dataset used for analysis
+
+## 🚀 Future Work
+- Apply Machine Learning models
+- Predict price based on features
